@@ -21,4 +21,4 @@ I am a first-year theoretical physics PhD student at the University of Exeter. M
 
 * Email: C.Hogg@exeter.ac.uk
 * Twitter: @quantum_charlie
-* GitHub: [github.com/quantum-charlie](https://github.com/quantum-charlie)
+* GitHub: github.com/quantum-charlie
