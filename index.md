@@ -10,3 +10,8 @@ I am a first-year theoretical physics PhD student at the University of Exeter. M
 * **Modelling Heat Transport Through a 'Quantum Wire'** *(Jan. 2020 - Jun. 2021)*
 
 ## Teaching ##
+
+#### University of Exeter 
+
+* **Thermal Physics (PHY2023)**: tutor for second-year Natural Sciences students *(21-22)*
+* **Mathematics with Physical Applications (PHY2025)**: demonstrator for second-year Physics students *(21-22)*
