@@ -6,7 +6,7 @@ layout: default
 print("Hello World!")
 ```
 
-Hello and welcome to my little corner of the internet!
+**Hello** and **welcome** to my little corner of the internet!
 
 I am a first-year theoretical physics PhD student at the University of Exeter. My research is in the field of quantum thermodynamics, specifically looking at quantum spin dynamics equations under the supervision of Dr Simon Horsley and Prof. Janet Anders.
 
@@ -18,5 +18,5 @@ I am a first-year theoretical physics PhD student at the University of Exeter. M
 
 ## Teaching
 
-* **Thermal Physics (PHY2023)**: tutor for second-year Natural Sciences students *(21-22)*
-* **Mathematics with Physical Applications (PHY2025)**: demonstrator for second-year Physics students *(21-22)*
+* **Thermal Physics (PHY2023)**: tutor for second-year Natural Sciences students *(2021-2022)*
+* **Mathematics with Physical Applications (PHY2025)**: demonstrator for second-year Physics students *(2021-2022)*
