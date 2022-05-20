@@ -16,9 +16,3 @@ I am a first-year theoretical physics PhD student at the University of Exeter. M
 
 * **Thermal Physics (PHY2023)**: tutor for second-year Natural Sciences students *(21-22)*
 * **Mathematics with Physical Applications (PHY2025)**: demonstrator for second-year Physics students *(21-22)*
-
-## Contact
-
-* Email: C.Hogg@exeter.ac.uk
-* Twitter: @quantum_charlie
-* GitHub: github.com/quantum-charlie
