@@ -45,7 +45,6 @@ body, html {
   width: device-width ;
   zoom: 1.0 ;
 }
- 
 </style>
 </head>
 <body>
@@ -59,12 +58,16 @@ body, html {
     <a href="#home" class="w3-bar-item w3-button">home</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> &nbsp about</a>
     <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> &nbsp projects</a>
+    <a href="#cv" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> &nbsp brief cv</a>
+    <a href="#teaching" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> &nbsp teaching</a>
   </div>
 
 <!-- Navbar on small screens -->
-<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3 hide-medium">
-  <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">about</a>
-  <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">projects</a>
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3 hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">about</a>
+    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">projects</a>
+    <a href="#cv" class="w3-bar-item w3-button" onclick="toggleFunction()">brief cv</a>
+    <a href="#teaching" class="w3-bar-item w3-button" onclick="toggleFunction()">teaching</a>
   </div>
 </div>
 
@@ -91,23 +94,55 @@ body, html {
 <!-- Container (Projects Section) -->
 <div class="w3-content w3-container w3-padding-32" id="projects">
   <h2 class="w3-center">projects</h2>
-  <p>
-    <h5>Developing a Quantum Thermodynamic Theory for Spin Systems (Sep. 2021 - Present)</h5>
-    <h6><em>Supervisors: <a href="https://emps.exeter.ac.uk/physics-astronomy/staff/ja343">Prof. Janet Anders</a> and <a href="https://emps.exeter.ac.uk/physics-astronomy/staff/sh481">Dr Simon Horsley</a></em></h6>
+  <h5>Developing a Quantum Thermodynamic Theory for Spin Systems (Sep. 2021 - Present)</h5>
+  <h6><em>Supervisors: <a href="https://emps.exeter.ac.uk/physics-astronomy/staff/ja343">Prof. Janet Anders</a> and <a href="https://emps.exeter.ac.uk/physics-astronomy/staff/sh481">Dr Simon Horsley</a></em></h6>
     <p>All elementary particles possess a property called `spin’ which can be manipulated to encode data, for example in magnetic hard drives [1]. In attempts to increase the storage of such devices, the densities of these `data bits’ (also called grains) in such devices is being increased [2].  In such limits, quantum effects become important and this is the primary focus of my PhD project. Specifically, the classical equations used to model magnetisation dynamics in these regimes can be shown to fail [3], necessitating the formulation of a new theory. My work builds upon that by my supervisors and colleagues who derive such a theory [4] - you can find their work <a href="https://iopscience.iop.org/article/10.1088/1367-2630/ac4ef2">here</a>.</p>
-    <p>
-      [1] <a href="https://www.explainthatstuff.com/harddrive.html">https://www.explainthatstuff.com/harddrive.html</a><br>
-      [2] <a href="https://www.seagate.com/gb/en/innovation/hamr/">https://www.seagate.com/gb/en/innovation/hamr/</a></li><br>
-      [3] Neeraj K et al. 2021 Nat. Phys. 17, 245–250.</li><br>
-      [4] Anders J et al. 2022 New J. Phys. 24 033020.</li>
+      <p>
+        [1] <a href="https://www.explainthatstuff.com/harddrive.html">https://www.explainthatstuff.com/harddrive.html</a><br>
+        [2] <a href="https://www.seagate.com/gb/en/innovation/hamr/">https://www.seagate.com/gb/en/innovation/hamr/</a></li><br>
+        [3] Neeraj K et al. 2021 Nat. Phys. 17, 245–250.</li><br>
+        [4] Anders J et al. 2022 New J. Phys. 24 033020.</li>
+      </p>
     </p>
-  </p>
   <hr>
-  <p>
-    <h5>Modelling Heat Transport Through a Quantum Wire (Jan. 2020 - Jun. 2021)</h5>
-    <h6><em>Supervisor: <a href="https://emps.exeter.ac.uk/physics-astronomy/staff/lc722">Dr Luis Correa</a></em></h6>
-  </p>
+  <h5>Modelling Heat Transport Through a Quantum Wire (Jan. 2020 - Jun. 2021)</h5>
+  <h6><em>Supervisor: <a href="https://emps.exeter.ac.uk/physics-astronomy/staff/lc722">Dr Luis Correa</a></em></h6>
+    <p>This was my master's project.</p>
   </ul>
+</div>
+
+<!-- Container (CV Section) -->
+<div class="w3-content w3-container w3-padding-32" id="cv">
+  <h2 class="w3-center">brief cv</h2>
+  <h5 class="w3-center">education</h5>
+  <ul>
+    <li>
+      <h6>
+      <b>PhD, Theoretical Physics</b><em>, Univeristy of Exeter (Sep. 2021 - Present)</em>
+      </h6>
+    </li>
+    <li>
+      <h6>
+        <b>MPhys, Physics</b><em>, Univeristy of Exeter (Sep. 2017 - Jun. 2021)</em>
+      </h6>
+      <p>Grade: 1st class (hons.)</p>
+      <p>Relevant modules: Quantum Mechanics I and II; Electromagnetism I and II; Thermal Physics; Statistical Physics; Methods
+of Theoretical Physics; Principles of Theoretical Physics; Quantum Many-Body Theory; Quantum Optics and Photonics.</p>
+    </li>
+  </ul>
+  <hr>
+  <h5 class="w3-center">technical skills</h5>
+  <p><b>Coding languages:</b> Python, Julia, Mathematica, Octave/MatLab, C (you can find my GitHub repos <a href="https://github.com/quantum-charlie">here</a>)</p>
+</div>
+
+<!-- Container (Teaching Section) -->
+<div class="w3-content w3-container w3-padding-32" id="teaching">
+  <h2 class="w3-center">teaching</h2>
+  <h5>Thermal Physics, PHY2023 (2021-2022)</h5>
+    <p>Tutor for second-year natural sciences students</p>
+  <hr>
+  <h5>Mathematics with Physical Applications, PHY2025 (2021-2022)</h5>
+    <p>Demonstrator for second-year physics students</p>
 </div>
     
 <div class="w3-content w3-container w3-padding-32"></div>
